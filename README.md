@@ -16,7 +16,7 @@ Se recomienda leer [este apunte](https://docs.google.com/document/d/1HGdGdDG7RAh
 - En este mismo README debe escribir en formato markdown los links a los puntos 1 y 2 y desarrollar el punto 3
 - Cualquier duda sobre el formato markdown tienen [esta página de referencia](https://www.markdownguide.org/cheat-sheet/)
 - En [esta página](https://algo2.uqbar-project.org/material/software) tenés el software que podés utilizar para hacer los diagramas, o bien sacale una foto a tu solución en lápiz y papel
-- **El límite para la entrega es el domingo 17/04 a las 20:00 hs.**
+- **El límite para la entrega es el miércoles 20/04 a las 18:00 hs.**
 
 ## Resolución
 
