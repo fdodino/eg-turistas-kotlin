@@ -32,13 +32,13 @@ class TuristaAnsioso : TipoTurista {
 
 class TuristaAmbicioso : TipoTurista {
     override fun elegirDestino(destinos: List<Destino>) =
-        destinos.maxBy { it.getCalificacion() }
+        destinos.maxBy { it.calificacion() }
 }
 
 
 interface Destino {
     fun visitar(turista: Turista)
-    fun getCalificacion(): Int
+    fun calificacion(): Int
 }
 
 
@@ -48,7 +48,7 @@ class DestinoTuristico(var calificacion: Int = 1, var cantidadVisitas: Int = 0) 
         turista.subirFelicidad(calificacion * 3)
     }
 
-    override fun getCalificacion() = calificacion
+    override fun calificacion() = calificacion
 }
 
 
@@ -59,6 +59,6 @@ class ComboDestinos : Destino {
         destinos.forEach { it.visitar(turista) }
     }
 
-    override fun getCalificacion() =
-        destinos.sumOf { it.getCalificacion() }
+    override fun calificacion() =
+        destinos.sumOf { it.calificacion() }
 }
