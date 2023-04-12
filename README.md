@@ -8,7 +8,11 @@ Dada [la siguiente solución (archivo Turista.kt)](src/main/kotlin/ar/edu/unsam/
 2. Identifique cuál es el caso de uso principal y realice un diagrama de secuencia para un turista ansioso y un destino turístico.
 3. Indique qué ideas de diseño aparecen y justifique qué valor agregado aportan.
 
-Se recomienda leer [este apunte](https://docs.google.com/document/d/1HGdGdDG7RAhL5j45UOFGK3F5sV2-rKHVHmPoYawHS5Y/edit) como guía.
+Se recomienda 
+
+- leer [este apunte](https://docs.google.com/document/d/1HGdGdDG7RAhL5j45UOFGK3F5sV2-rKHVHmPoYawHS5Y/edit) como guía
+- y ver [el video con la resolución de un parcial similar](https://youtu.be/IH7R9oqO0qs)
+
 
 ## Modalidad de entrega
 
